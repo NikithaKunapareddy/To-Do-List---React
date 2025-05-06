@@ -1,0 +1,5 @@
+# Ignore generated CSS and vendor files for language stats
+frontend/public/*.css linguist-vendored
+frontend/node_modules/** linguist-vendored
+frontend/dist/** linguist-vendored
+*.min.js linguist-vendored 
